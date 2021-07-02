@@ -1,5 +1,12 @@
-{
+/*
+ * @Description: 
+ * @Author: aLittleMango
+ * @Date: 2021-07-01 21:01:17
+ * @LastEditTime: 2021-07-02 11:45:02
+ * @FilePath: \VSCode-C\.vscode\settings.json
+ */
 
+{
         "files.defaultLanguage": "c", // ctrl+N新建文件后默认的语言
     
         "editor.formatOnType": true,  // 输入分号(C/C++的语句结束标识)后自动格式化当前这一行的代码

@@ -1,8 +1,16 @@
-{
+/*
+ * @Description: 
+ * @Author: aLittleMango
+ * @Date: 2021-07-01 21:00:53
+ * @LastEditTime: 2021-07-02 11:44:49
+ * @FilePath: \VSCode-C\.vscode\launch.json
+ */
 
+{
         "version": "0.2.0",
     
-        "configurations": [{
+        "configurations": [
+        {
     
             "name": "(gdb) Launch", // 配置名称，将会在启动配置的下拉菜单中显示
     
@@ -47,4 +55,7 @@
         }]
     
     }
+   
     
+
+
