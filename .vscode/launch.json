@@ -2,7 +2,7 @@
  * @Description: 
  * @Author: aLittleMango
  * @Date: 2021-07-01 21:00:53
- * @LastEditTime: 2021-07-02 11:44:49
+ * @LastEditTime: 2021-07-08 16:56:46
  * @FilePath: \VSCode-C\.vscode\launch.json
  */
 
@@ -10,6 +10,7 @@
         "version": "0.2.0",
     
         "configurations": [
+        
         {
     
             "name": "(gdb) Launch", // 配置名称，将会在启动配置的下拉菜单中显示
@@ -28,7 +29,7 @@
     
             "environment": [], // 环境变量
     
-            "externalConsole": true, // 为true时使用单独的cmd窗口，与其它IDE一致；18年10月后设为false可调用VSC内置终端
+            "externalConsole":true, // 为true时使用单独的cmd窗口，与其它IDE一致；18年10月后设为false可调用VSC内置终端
     
             "internalConsoleOptions": "neverOpen", // 如果不设为neverOpen，调试时会跳到“调试控制台”选项卡，你应该不需要对gdb手动输命令吧？
     
@@ -49,7 +50,6 @@
                 }
     
             ],
-    
             "preLaunchTask": "Compile" // 调试会话开始前执行的任务，一般为编译程序。与tasks.json的label相对应
     
         }]

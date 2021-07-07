@@ -2,7 +2,7 @@
  * @Description: 
  * @Author: aLittleMango
  * @Date: 2021-07-01 21:01:17
- * @LastEditTime: 2021-07-02 11:45:02
+ * @LastEditTime: 2021-07-08 14:45:38
  * @FilePath: \VSCode-C\.vscode\settings.json
  */
 
@@ -23,13 +23,7 @@
     
         "code-runner.executorMap": {
     
-         //   "c": "cd $dir ; gcc '$fileName' -o '$fileNameWithoutExt.exe' -Wall -g -O2 -static-libgcc -std=c11 -fexec-charset=GBK ; &'$dir$fileNameWithoutExt'",
-    
-           // "cpp": "cd $dir ; g++ '$fileName' -o '$fileNameWithoutExt.exe' -Wall -g -O2 -static-libgcc -std=c++17 -fexec-charset=GBK ; &'$dir$fileNameWithoutExt'"
-    
-            // "c": "cd $dir && gcc $fileName -o $fileNameWithoutExt.exe -Wall -g -O2 -static-libgcc -std=c11 -fexec-charset=GBK && $dir$fileNameWithoutExt",
-    
-            // "cpp": "cd $dir && g++ $fileName -o $fileNameWithoutExt.exe -Wall -g -O2 -static-libgcc -std=c++17 -fexec-charset=GBK && $dir$fileNameWithoutExt"
+         
         "c": "cd $dir ; gcc '$fileName' -o '$fileNameWithoutExt.exe' -Wall -g -O2 -static-libgcc -std=c11 -fexec-charset=GBK ;.\\$fileNameWithoutExt.exe ",
     
         "cpp": "cd $dir ; g++ '$fileName' -o '$fileNameWithoutExt.exe' -Wall -g -O2 -static-libgcc -std=c++17 -fexec-charset=GBK ;.\\$fileNameWithoutExt"
@@ -46,6 +40,11 @@
     
     
     
-        "C_Cpp.clang_format_sortIncludes": true, // 格式化时调整include的顺序（按字母排序）
+    "C_Cpp.clang_format_sortIncludes": true,
+    "files.associations": {
+        "pthread.h": "c",
+        "stdio.h": "c",
+        "omp.h": "c"
+    }, // 格式化时调整include的顺序（按字母排序）
     
     }
